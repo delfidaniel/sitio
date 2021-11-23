@@ -6,13 +6,19 @@ body { background-color: orange; }
 
 .d-block { width: 100%; }
 
-.btn-primary { background-color: black;  color: white; border-color: white;}
+.card-body { background-color: #EC9706; }
+
+.card {  border: none;}
+
+.btn-primary { background-color: black;  color: white; border: none;}
 
 .btn-primary:hover;{ background-color: white;  color: black;  }
 
 footer { background-color: white; color: black;}
 
-.contenedor { margin-left: 2%; }
+.iconos { font-size: 20px; }
 
-.iconos { text-decoration: none; color: black; font-size: 20px; }
+.icono { color: black; }
+
+
 
