@@ -1,0 +1,24 @@
+header { background-color: white; }
+
+body { background-color: orange; }
+
+.navbar-brand img { width: 15%;  }
+
+.d-block { width: 100%; }
+
+.card-body { background-color: #EC9706; }
+
+.card {  border: none;}
+
+.btn-primary { background-color: black;  color: white; border: none;}
+
+.btn-primary:hover;{ background-color: white;  color: black;  }
+
+footer { background-color: white; color: black;}
+
+.iconos { font-size: 20px; }
+
+.icono { color: black; }
+
+
+
