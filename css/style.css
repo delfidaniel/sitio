@@ -1,0 +1,18 @@
+header { background-color: white; }
+
+body { background-color: orange; }
+
+.navbar-brand img { width: 15%;  }
+
+.d-block { width: 100%; }
+
+.btn-primary { background-color: black;  color: white; border-color: white;}
+
+.btn-primary:hover;{ background-color: white;  color: black;  }
+
+footer { background-color: white; color: black;}
+
+.contenedor { margin-left: 2%; }
+
+.iconos { text-decoration: none; color: black; font-size: 20px; }
+
