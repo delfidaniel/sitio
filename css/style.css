@@ -10,7 +10,7 @@ body { font-family: 'Mukta', sans-serif; }
 
 .card {  border: 5px solid white; border-radius: 8px; transition-duration: 1.5s; transition-property: all;  }
 
-.card:hover {  border: 5px solid black; transform: scale(1.1);  }
+.card:hover {  border: 5px solid black; transform: scale(1.0);  }
 
 .boton { background-color: black;  color: white; text-decoration: none; padding: 6px; border-radius: 10px; transition-duration: 1.5s; transition-property: all;  }
 
@@ -38,11 +38,11 @@ footer span { font-family: 'Mukta', sans-serif; }
 
 .formulario label { color: white;  }
 
-.card-title  { font-family: 'Mukta', sans-serif;}
+.card-title  { font-family: 'Mukta', sans-serif; margin-bottom: 2%; }
 
 .card-text {font-family: 'Mukta', sans-serif;}
 
-.card-body a { font-family: 'Mukta', sans-serif;}
+.card-body a { font-family: 'Mukta', sans-serif; }
 
 .rafanadal h1 { text-align: center; font-family: 'Archivo Black', sans-serif; color: yellow; font-size: 80px; }
 
@@ -71,20 +71,29 @@ footer span { font-family: 'Mukta', sans-serif; }
 
 .card2 { border: 5px solid black; border-radius: 8px; transition-duration: 1.5s; transition-property: all;}
 
-.card2:hover {  border: 5px solid white; transform: scale(1.1);  }
+.card2:hover {  border: 5px solid white; transform: scale(1.0);  }
 
 .linea h4 { font-family: 'Archivo Black', sans-serif; color: orange; font-size: 30px; transition-duration: 2s; transition-property: all;  }
 
 hr { color: orange;  border: 3px solid;}
 
-.boton4 { background-color: black;  color: white; text-decoration: none; font-size: 20px; margin-bottom: 2%; margin-left: 43%; padding: 10px; border-radius: 5px; display: flex; flex-direction: row; justify-content: center; width: 15%; transition-duration: 1.5s; transition-property: all; }
+.boton4 { background-color: black;  color: white; text-decoration: none; padding: 10px; border-radius: 5px; margin-top: 2%; margin-bottom: 2%; transition-duration: 1.5s; transition-property: all; }
 
-.boton4:hover { background-color: white; color: black; border: 3px solid black; transform: scale(1.2); }
+
+
+.boton4:hover { background-color: white; color: black; border: 3px solid black; transform: scale(1.2);}
+
+.card-body { text-align: center; }
+
+
+.card3 { border: 5px solid black; border-radius: 8px; transition-duration: 1.5s; transition-property: all;}
+
+.card3:hover {  border: 5px solid white; transform: scale(1.0);  }
+
 
 .error {  color: black; text-decoration: none; }
 
 .error:hover {  color: orange;  }
-
 
 
 
