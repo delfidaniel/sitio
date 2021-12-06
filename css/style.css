@@ -2,37 +2,41 @@ header { background-color: white; color: black; font-family: 'Mukta', sans-serif
 
 body { font-family: 'Mukta', sans-serif; }
 
-.navbar-brand img { width: 15%;  }
+.navbar-brand img { width: 15%; }
+
+.carousel-inner { border-radius: 10px; }
 
 .card-body { background-color: #F08328; }
 
-.card {  border: 5px solid white; border-radius: 8px;}
+.card {  border: 5px solid white; border-radius: 8px; transition-duration: 1.5s; transition-property: all;  }
 
-.boton { background-color: black;  color: white; text-decoration: none; padding: 6px; border-radius: 10px; }
+.card:hover {  border: 5px solid black; transform: scale(1.1);  }
 
-.boton:hover { background-color: white; color: black;  }
+.boton { background-color: black;  color: white; text-decoration: none; padding: 6px; border-radius: 10px; transition-duration: 1.5s; transition-property: all;  }
+
+.boton:hover { background-color: white; color: black; border: 3px solid black; transform: scale(1.5); }
+
+.h2 h2 { font-size: 45px; color: yellow; margin: 2%; text-align: center; font-family: 'Archivo Black', sans-serif; transition-duration: 2s; transition-property: all; }
+
+.h2 h2:hover { color: #ff8000; transform: scale(1.2) rotate(1turn) }
+
+.h2 h2:active { position: relative; }
 
 footer { background-color: white; color: black; font-family: 'Mukta', sans-serif;}
 
 footer span { font-family: 'Mukta', sans-serif; }
 
-.iconos { font-size: 20px; }
+.iconos { font-size: 30px; text-decoration: none; }
 
 .icono { color: black; }
 
-.trayectoria h2 { font-size: 50px; color: white; margin: 2%; text-align: center; font-family: 'Mukta', sans-serif;  }
+.museo h3 { font-size: 35px; color: yellow; margin: 2%; text-align: center; font-family: 'Archivo Black', sans-serif; transition-duration: 2s; transition-property: all;  }
 
-.formulario h2 { font-size: 50px; color: yellow; margin: 2%; text-align: center; font-family: 'Archivo Black', sans-serif; }
-
-.partidos h2 { font-size: 50px; color: yellow; margin: 2%; text-align: center; font-family: 'Archivo Black', sans-serif;  }
-
-.academia h2 { font-size: 50px; color: yellow; margin: 2%; text-align: center; font-family: 'Archivo Black', sans-serif;  }
-
-.museo h3 { font-size: 40px; color: yellow; margin: 2%; text-align: center; font-family: 'Archivo Black', sans-serif;  }
+.museo h3:hover {  color: #ff8000; transform: scale(1.2) rotate(1turn)  }
 
 .h3 h3 { font-size: 35px; color: yellow; margin: 2%; text-align: center; font-family: 'Archivo Black', sans-serif;  }
 
-.formulario label { color: white;}
+.formulario label { color: white;  }
 
 .card-title  { font-family: 'Mukta', sans-serif;}
 
@@ -40,31 +44,48 @@ footer span { font-family: 'Mukta', sans-serif; }
 
 .card-body a { font-family: 'Mukta', sans-serif;}
 
-.rafanadal h1 { text-align: center; font-family: 'Archivo Black', sans-serif; color: yellow; font-size: 80px;}
+.rafanadal h1 { text-align: center; font-family: 'Archivo Black', sans-serif; color: yellow; font-size: 80px; }
 
-.rafanadal2 h1 { text-align: center; font-family: 'Archivo Black', sans-serif; color: yellow; font-size: 50px; margin: 3%}
+.rafanadal h1 { animation-name: rafa;  animation-duration: 2s; animation-delay:1s ; animation-fill-mode: backwards ;}
 
-.boton2 { background-color: black;  color: white; text-decoration: none; padding: 6px; border-radius: 5px; font-size: 20px;}
+@keyframes rafa{
+     0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
 
-.boton2:hover { background-color: white; color: black;  }
+.boton2 { background-color: black;  color: white; text-decoration: none; padding: 6px; border-radius: 5px; font-size: 15px; transition-duration: 1.5s; transition-property: all; }
 
-.card-body h5 { font-family: 'Archivo Black', sans-serif; color: yellow; text-align: center; }
+.boton2:hover { background-color: white; color: black; border: 3px solid black; transform: scale(1.5); }
 
-.boton3 { background-color: black;  color: white; text-decoration: none; padding: 6px; border-radius: 5px; }
+.card-body h5 { font-family: 'Archivo Black', sans-serif; color: yellow; text-align: center; transition-duration: 1.5s; transition-property: all;  }
 
-.boton3:hover { background-color: white; color: black; }
+.card-body h5:hover { transform: scale(1.5); }
 
-.card2 { border: 5px solid black; border-radius: 8px; }
+.boton3 { background-color: black;  color: white; text-decoration: none; padding: 6px; border-radius: 5px; transition-duration: 1.5s; transition-property: all;  }
 
-.linea h3 { font-family: 'Archivo Black', sans-serif; color: orange; font-size: 40px; }
+.boton3:hover { background-color: white; color: black; border: 3px solid black; transform: scale(1.5); }
+
+.card2 { border: 5px solid black; border-radius: 8px; transition-duration: 1.5s; transition-property: all;}
+
+.card2:hover {  border: 5px solid white; transform: scale(1.1);  }
+
+.linea h4 { font-family: 'Archivo Black', sans-serif; color: orange; font-size: 30px; transition-duration: 2s; transition-property: all;  }
 
 hr { color: orange;  border: 3px solid;}
 
-.carrito h3 { font-size: 35px; color: yellow; margin: 2%; text-align: center; font-family: 'Archivo Black', sans-serif; }
+.boton4 { background-color: black;  color: white; text-decoration: none; font-size: 20px; margin-bottom: 2%; margin-left: 43%; padding: 10px; border-radius: 5px; display: flex; flex-direction: row; justify-content: center; width: 15%; transition-duration: 1.5s; transition-property: all; }
 
-.boton4 { background-color: black;  color: white; text-decoration: none; font-size: 20px; margin-bottom: 2%; margin-left: 43%; padding: 10px; border-radius: 5px; display: flex; flex-direction: row; justify-content: center; width: 15%;}
+.boton4:hover { background-color: white; color: black; border: 3px solid black; transform: scale(1.2); }
 
-.boton4:hover { background-color: white; color: black; }
+.error {  color: black; text-decoration: none; }
+
+.error:hover {  color: orange;  }
+
+
 
 
 

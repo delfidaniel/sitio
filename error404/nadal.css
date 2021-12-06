@@ -1,0 +1,103 @@
+* { margin:0; padding: 0;} 
+
+body { background-color: #ff8000; color: white; font-family: 'Open Sans', sans-serif; text-align: center; }
+
+h1  { font-family: 'Archivo Black', sans-serif; font-size: 300px; color: yellow; justify-content: center; }
+
+.fotoraqueta img { width: 100%;  }
+
+.fotoraqueta { width: 35%; }
+
+.raqueta  { display: inline-flex; justify-content: center; } 
+
+.h2 {  font-size: 30px;  display: inline-flex; margin-top: -1%;  color: yellow; } 
+
+.boton a { text-decoration: none; font-size: 20px; width: 30%; padding: 4px; text-align: center; background-color:yellow; color: black;  border-radius: 10px; }
+
+.boton { margin-top: 1%;  }
+
+.boton a:hover { background-color:black; color: yellow; }
+
+.pelotas { justify-content: center; margin-left: 42%;}
+
+
+
+
+
+
+.pelotas{
+  background-image: url("../error404/img/pelotas.jpg");
+  width: 200px;
+  height: 200px; 
+  animation-name: Steps1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(3);
+}
+
+@keyframes Steps1{
+    0%{
+        background-position: 600px;
+    }
+    100%{
+        background-position: 0;
+}
+
+}
+
+
+
+.fotoraqueta {
+    animation-name: raqueta;
+    animation-duration: 2s;
+    animation-delay:1s ;
+    animation-fill-mode: backwards ;
+}
+
+
+
+@keyframes raqueta{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
