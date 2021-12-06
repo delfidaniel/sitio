@@ -105,3 +105,10 @@ hr { color: orange;  border: 3px solid;}
 
 .error:hover {  color: orange;  }
 
+
+.formu {  border-radius: 20px; }
+
+.formu input { width: 50%; padding: 10px; border-radius: 10px;  }
+
+
+
